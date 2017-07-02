@@ -7,4 +7,6 @@ install:
   - npm install sle
 
 script:
+  - echo `pwd`
+  - ls -Fal .
   - sle index.js
