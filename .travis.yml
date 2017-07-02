@@ -7,5 +7,4 @@ install:
   - npm install sle
 
 script:
-  - echo `pwd`
-  - sle /home/travis/build/sle-js/lib-Native.Data.Maybe/index.js
+  - sle index.js
