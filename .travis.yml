@@ -8,4 +8,4 @@ install:
 
 script:
   - echo `pwd`
-  - sle ./index.js
+  - sle /home/travis/build/sle-js/lib-Native.Data.Maybe/index.js
